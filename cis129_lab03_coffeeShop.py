@@ -8,6 +8,8 @@
 # ~ set price constants.
 coffeeUnitPrice = 5
 muffinUnitPrice = 4
+ojUnitPrice = 3
+pupCupUnitPrice = 0
 taxRate = 6
 
 def printStars():
@@ -39,6 +41,12 @@ coffeeUnits = int( input( "Number of coffees bought?\n" ))
 # query muffinUnits.
 muffinUnits = int( input( "Number of muffins bought?\n" ))
 
+# query ojUnits.
+ojUnits = int ( input( "Number of oj's bought?\n" ))
+
+# query pupCup.
+pupCupUnits = int ( input( "Number of pup cups?\n" ))
+
 printStars()                  
 print()
 printStars()
@@ -46,26 +54,27 @@ printStars()
 # ~ PROCESSING: calculate extensions, subtotal, tax, total, etc.
 coffeeExtension = coffeeUnits * coffeeUnitPrice
 muffinExtension = muffinUnits * muffinUnitPrice
-subtotal = coffeeExtension + muffinExtension
+ojExtension = ojUnits * ojUnitPrice
+pupCupExtension = pupCupUnits * pupCupUnitPrice
+subtotal = coffeeExtension + muffinExtension + ojExtension + pupCupExtension
 tax = taxRate / 100 * subtotal
 total = subtotal + tax
 
 # ~ OUTPUT: present receipt.
 print( "My Coffee and Muffin Shop Receipt" )
+
 print( str( coffeeUnits ) + " Coffee at $" + str( coffeeUnitPrice ) \
         + " each: " + money( coffeeExtension ))
 print( str( muffinUnits ) + " Muffin at $" + str( muffinUnitPrice ) \
-         + " each: " + money( muffinExtension ))
+        + " each: " + money( muffinExtension ))
+print( str( ojUnits ) +     " OJ at     $" + str( ojUnitPrice ) \
+        + " each: " + money( ojExtension ))
+print( str( pupCupUnits ) + " PupCup at $" + str( pupCupUnitPrice ) \
+        + " each: " + money( pupCupExtension ))
+
 print( str( taxRate ) + "% tax: " + money( tax )) 
 printDashes()
 print( "Total: " + money( total ))
 printStars()
 
-
-"""                  
-display coffeeDetails
-display muffinDetails
-display tax
-display total
-"""
-
+print( "Thanks for visiting our business!" )
