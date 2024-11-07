@@ -1,0 +1,169 @@
+# Author:           Martin Solum
+# Date:             08NOV2024Fri
+# Course:           CIS129
+# Instructor:       Brittany Griwzow
+# Assignment:       Module 08 Assignment.
+# Exercise:         Deitel & Deitel exercise 5.1
+
+* Complete exercise 5.1 in Deitel & Deitel
+
+5.1 (What’s Wrong with This Code?) What, if anything, is wrong with each of the following code segments?
+
+== 1 ==
+* This:    
+{{{
+day, high_temperature = ('Monday', 87, 65)
+}}}
+
+* Should be: 
+{{{
+day, high_temperature = ('Monday', 87, 65)[0:2]
+}}}
+
+== 2 ==
+* This:      
+{{{
+numbers = [1, 2, 3, 4, 5]
+numbers[10]
+}}}
+* Should be: 
+{{{
+numbers = [1, 2, 3, 4, 5]
+numbers[4]
+}}}
+
+== 3 ==
+* This:      
+{{{
+name = 'amanda'
+name[0] = 'A'
+}}}
+* Should be: 
+{{{
+name = 'amanda'
+name = 'A' + name[1:]
+}}}
+
+== 4 ==
+* This:      
+{{{
+numbers = [1, 2, 3, 4, 5]
+numbers[3.4]
+}}}
+* Should be: 
+{{{
+numbers = [1, 2, 3, 4, 5]
+numbers[3:4]
+}}}
+
+== 5 ==
+* This:      
+{{{
+student_tuple = ('Amanda', 'Blue', [98, 75, 87])
+student_tuple[0] = 'Ariana'
+}}}
+* Should be: 
+{{{
+student_tuple = ('Amanda', 'Blue', [98, 75, 87])
+student_tuple = ('Ariana',) + student_tuple[1:]
+### OR ###
+student_tuple = ('Amanda', 'Blue', [98, 75, 87])
+lst = list(student_tuple)
+lst[0] = 'Ariana'
+student_tuple = tuple( lst )
+student_tuple
+}}}
+
+== 6 ==
+* This:      
+{{{
+('Monday', 87, 65) + 'Tuesday'
+}}}
+* Should be: 
+{{{
+('Monday', 87, 65) + ('Tuesday',)
+}}}
+
+== 7 ==
+* This:      
+{{{
+'A' += ('B', 'C')
+}}}
+* Should be: 
+{{{
+('A',) + ('B', 'C')
+}}}
+
+== 8 ==
+* This:      
+{{{
+x = 7
+del x
+print(x)
+}}}
+* Should be: 
+{{{
+x = 7
+x = None
+print( x )
+}}}
+
+== 9 ==
+* This:      
+{{{
+numbers = [1, 2, 3, 4, 5]
+numbers.index(10)
+}}}
+* Should be: 
+{{{
+numbers = [1, 2, 3, 4, 5]
+numbers.index(5)
+}}}
+
+== 10 ==
+* This:      
+{{{
+numbers = [1, 2, 3, 4, 5]
+numbers.extend(6, 7, 8)
+}}}
+* Should be: 
+{{{
+numbers = [1, 2, 3, 4, 5]
+numbers = numbers + [6, 7, 8]
+numbers
+### OR ###
+numbers = [1, 2, 3, 4, 5]
+numbers.extend( [6, 7, 8] )
+numbers
+}}}
+
+== 11 ==
+* This:      
+{{{
+numbers = [1, 2, 3, 4, 5]
+numbers.remove(10)
+numbers
+}}}
+* Should be: 
+{{{
+numbers = [1, 2, 3, 4, 5]
+numbers.remove(3)
+numbers
+### OR ###
+numbers = [1, 2, 3, 4, 5]
+numbers = numbers[0:2] + numbers[3:5]
+numbers
+}}}
+
+== 12 ==
+* This:      
+{{{
+values = []
+values.pop()
+}}}
+* Should be: 
+{{{
+values = [ 7 ]
+values.pop()
+}}}
+
