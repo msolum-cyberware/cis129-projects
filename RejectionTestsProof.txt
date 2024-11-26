@@ -1,0 +1,112 @@
+(base) MODULE_10>cis129_MartinSolum_Module10Lab.py
+please enter a floating point number:
+'cat'
+This program only accepts floats.
+The float entered must be under 10 chars long.
+The presentation format is '$$$,$$$.dd'.
+The highest allowable number is 999999.99.
+The user must manually enter the decimal point.
+The user must manually enter tenths & hundredths places, even for 0.00.
+The user does not enter the commas.  The system will do that automatically.
+please re-attempt to enter your floating point number.
+please enter a floating point number:
+cat
+This program only accepts floats.
+The float entered must be under 10 chars long.
+The presentation format is '$$$,$$$.dd'.
+The highest allowable number is 999999.99.
+The user must manually enter the decimal point.
+The user must manually enter tenths & hundredths places, even for 0.00.
+The user does not enter the commas.  The system will do that automatically.
+please re-attempt to enter your floating point number.
+please enter a floating point number:
+'dog'
+This program only accepts floats.
+The float entered must be under 10 chars long.
+The presentation format is '$$$,$$$.dd'.
+The highest allowable number is 999999.99.
+The user must manually enter the decimal point.
+The user must manually enter tenths & hundredths places, even for 0.00.
+The user does not enter the commas.  The system will do that automatically.
+please re-attempt to enter your floating point number.
+please enter a floating point number:
+dog
+This program only accepts floats.
+The float entered must be under 10 chars long.
+The presentation format is '$$$,$$$.dd'.
+The highest allowable number is 999999.99.
+The user must manually enter the decimal point.
+The user must manually enter tenths & hundredths places, even for 0.00.
+The user does not enter the commas.  The system will do that automatically.
+please re-attempt to enter your floating point number.
+please enter a floating point number:
+-1
+This program only accepts floats.
+The float entered must be under 10 chars long.
+The presentation format is '$$$,$$$.dd'.
+The highest allowable number is 999999.99.
+The user must manually enter the decimal point.
+The user must manually enter tenths & hundredths places, even for 0.00.
+The user does not enter the commas.  The system will do that automatically.
+please re-attempt to enter your floating point number.
+please enter a floating point number:
+-1.00
+This program only accepts floats.
+The float entered must be under 10 chars long.
+The presentation format is '$$$,$$$.dd'.
+The highest allowable number is 999999.99.
+The user must manually enter the decimal point.
+The user must manually enter tenths & hundredths places, even for 0.00.
+The user does not enter the commas.  The system will do that automatically.
+please re-attempt to enter your floating point number.
+please enter a floating point number:
+0
+This program only accepts floats.
+The float entered must be under 10 chars long.
+The presentation format is '$$$,$$$.dd'.
+The highest allowable number is 999999.99.
+The user must manually enter the decimal point.
+The user must manually enter tenths & hundredths places, even for 0.00.
+The user does not enter the commas.  The system will do that automatically.
+please re-attempt to enter your floating point number.
+please enter a floating point number:
+1.5
+This program only accepts floats.
+The float entered must be under 10 chars long.
+The presentation format is '$$$,$$$.dd'.
+The highest allowable number is 999999.99.
+The user must manually enter the decimal point.
+The user must manually enter tenths & hundredths places, even for 0.00.
+The user does not enter the commas.  The system will do that automatically.
+please re-attempt to enter your floating point number.
+please enter a floating point number:
+999,999.99
+This program only accepts floats.
+The float entered must be under 10 chars long.
+The presentation format is '$$$,$$$.dd'.
+The highest allowable number is 999999.99.
+The user must manually enter the decimal point.
+The user must manually enter tenths & hundredths places, even for 0.00.
+The user does not enter the commas.  The system will do that automatically.
+please re-attempt to enter your floating point number.
+please enter a floating point number:
+1000000
+This program only accepts floats.
+The float entered must be under 10 chars long.
+The presentation format is '$$$,$$$.dd'.
+The highest allowable number is 999999.99.
+The user must manually enter the decimal point.
+The user must manually enter tenths & hundredths places, even for 0.00.
+The user does not enter the commas.  The system will do that automatically.
+please re-attempt to enter your floating point number.
+please enter a floating point number:
+1000000.00
+This program only accepts floats.
+The float entered must be under 10 chars long.
+The presentation format is '$$$,$$$.dd'.
+The highest allowable number is 999999.99.
+The user must manually enter the decimal point.
+The user must manually enter tenths & hundredths places, even for 0.00.
+The user does not enter the commas.  The system will do that automatically.
+please re-attempt to enter your floating point number.
+please enter a floating point number:
